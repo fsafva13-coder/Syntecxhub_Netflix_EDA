@@ -24,7 +24,7 @@ Built as part of the Syntecxhub Data Science Internship (Week 3, Project 2).
 
 - **Content type breakdown** — Movies vs TV Shows with pie chart and stacked bar by year
 - **Growth trend analysis** — year-by-year content additions with area chart and YoY growth rate
-- **Top 10 genre analysis** — ranked horizontal bar chart + stacked by content type
+- **Top 10 genre analysis** — ranked horizontal bar chart and stacked by content type
 - **Movie runtime distribution** — histogram with KDE overlay, mean and median lines
 - **TV show seasons distribution** — bar chart showing how many seasons most shows run
 - **Top 10 producing countries** — ranked by number of titles
@@ -151,7 +151,7 @@ Syntecxhub_Netflix_EDA/
 
 ## 🧠 Challenges & Learnings
 
-**Challenge:** Country and rating columns had ~150 missing values combined. Rather than imputing, the approach was to analyze available data and report the missingness explicitly — in a real Netflix dataset, missing country often means co-productions or licensing complexities that shouldn't be imputed.
+**Challenge:** Multiple probability arrays in the dataset generation needed to sum exactly to 1.0 — numpy raises a `ValueError` otherwise. Fixed by carefully recalculating each weight array and verifying the sum before running.
 
 **Learning:** Year-over-year growth rate tells a more interesting story than raw counts. A bar showing 600 titles in 2020 and 700 in 2021 looks like modest growth — but the percentage change chart makes the acceleration and deceleration immediately clear.
 
@@ -171,7 +171,7 @@ Syntecxhub_Netflix_EDA/
 
 ## 👩‍💻 Author
 
-**Safva** - Data Science Intern @ Syntecxhub  
+**Fathima Safva** - Data Science Intern @ Syntecxhub  
 🔗 [LinkedIn](https://linkedin.com/in/fathima-safva-578294315) · [GitHub](https://github.com/fsafva13-coder)
 
 ---
