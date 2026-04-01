@@ -1,0 +1,48 @@
+
+NETFLIX / MEDIA DATASET EDA — SUMMARY REPORT
+Generated: 2026-04-01 06:14:50
+============================================================
+
+DATASET OVERVIEW
+Total titles:     6,000
+Year range:       2008 to 2023
+Movies:           4,245 (70.8%)
+TV Shows:         1,755 (29.2%)
+Missing country:  75
+Missing rating:   75
+
+TOP 10 GENRES
+genre
+Drama                 886
+Comedy                721
+Action & Adventure    530
+Documentaries         489
+Horror Movies         448
+Romantic Movies       416
+Thrillers             410
+Children & Family     347
+Anime                 317
+Stand-Up Comedy       299
+
+TOP 10 COUNTRIES
+country
+United States     1995
+India              880
+United Kingdom     577
+Canada             418
+France             393
+Japan              377
+South Korea        350
+Mexico             330
+Spain              306
+Germany            299
+
+KEY FINDINGS
+1. Movies dominate the catalog at 70.8% vs TV Shows at 29.2%
+2. Top genre: Drama — consistently the most produced content type
+3. Top producing country: United States — drives over a third of all content
+4. Content peaked in 2020 — Netflix's most aggressive content year
+5. Average movie runtime: 120 minutes — slightly above the typical 90-min feature film
+6. Most common TV show length: 6 season(s) — majority of shows are short-run
+7. TV-MA is the most common rating — Netflix skews toward adult audiences
+============================================================
